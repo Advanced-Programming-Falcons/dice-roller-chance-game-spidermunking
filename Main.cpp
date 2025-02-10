@@ -7,6 +7,7 @@ using namespace std;
 
 int main(){
     dice Kevin;
+    srand(time(NULL));
 
     InitWindow(800, 600, "Dice Roller");
 
@@ -20,7 +21,6 @@ int main(){
     Texture2D six = LoadTexture("Numbers/num6.png");
 
     while(!WindowShouldClose()){
-    
 
         BeginDrawing();
         
